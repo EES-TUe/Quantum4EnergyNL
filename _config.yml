@@ -3,24 +3,7 @@ description: "Connecting quantum technologies and the energy transition in the N
 url: "https://www.quantum4energy.nl"
 baseurl: ""
 
-# ✅ use remote_theme instead of local files
-remote_theme: "broccolini/feeling-responsive"
+remote_theme: Phlow/feeling-responsive
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-
-# Basic author info
-author:
-  name: "Quantum4EnergyNL"
-  email: ""
-
-# Optional Google Fonts
-google_webfonts:
-  - "Open Sans:400,700"
-  - "Lato:400,700"
-
-# Theme options (keep minimal at first)
-theme_settings:
-  navigation: true
-  show_subnav: true
-  sidebar: false
