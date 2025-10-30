@@ -1,9 +1,0 @@
-title: "Quantum4EnergyNL"
-description: "Connecting quantum technologies and the energy transition in the Netherlands."
-url: "https://www.quantum4energy.nl"
-baseurl: ""
-
-remote_theme: Phlow/feeling-responsive
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
