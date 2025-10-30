@@ -1,0 +1,76 @@
+/* Quantum4EnergyNL custom branding */
+
+/* Base colors */
+:root {
+  --brand-orange: #FF6600; 
+  --brand-black: #111111;
+  --text-color: #111111;
+  --background-color: #ffffff;
+}
+
+/* General text and background */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Open Sans", "Lato", sans-serif;
+  line-height: 1.6;
+}
+
+/* Links */
+a,
+a:visited {
+  color: var(--brand-orange);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover,
+a:focus {
+  color: var(--brand-black);
+  text-decoration: underline;
+}
+
+/* Header / Navigation */
+nav,
+.navbar,
+.menu {
+  background-color: var(--brand-black);
+}
+
+nav a,
+.navbar a,
+.menu a {
+  color: white;
+}
+
+nav a:hover,
+.menu a:hover {
+  color: var(--brand-orange);
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: var(--brand-black);
+  font-weight: 700;
+}
+
+/* Buttons (if used) */
+button, .button, input[type=submit] {
+  background-color: var(--brand-orange);
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover, .button:hover {
+  background-color: var(--brand-black);
+}
+
+/* Footer */
+footer {
+  background-color: var(--brand-black);
+  color: white;
+  padding: 1em 0;
+}
