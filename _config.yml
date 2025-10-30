@@ -1,0 +1,8 @@
+title: "Quantum4EnergyNL"
+description: "Connecting quantum technologies and the energy transition in the Netherlands."
+url: "https://ees-tue.github.io"   # we’ll switch to your domain later
+baseurl: "/quantum4energynl"       # required while testing under github.io
+
+remote_theme: zerostaticthemes/jekyll-serif-theme
+plugins:
+  - jekyll-remote-theme
