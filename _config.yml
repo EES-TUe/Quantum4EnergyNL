@@ -1,12 +1,13 @@
-title: Quantum4EnergyNL
-description: Building a community for quantum compu:ng in power and energy systems
+title: "Quantum4EnergyNL"
+description: "Connecting quantum technologies and the energy transition in the Netherlands."
 url: "https://www.quantum4energy.nl"
-baseurl: ""   # keep empty when using a custom domain
-remote_theme: "mmistakes/minimal-mistakes"
+baseurl: ""
 
+# Use the Serif theme via remote_theme
+remote_theme: zerostaticthemes/jekyll-serif-theme
 plugins:
-  - jekyll-include-cache
-  - jekyll-feed
+  - jekyll-remote-theme
+
 
 logo: /assets/images/logo-placeholder.png
 
