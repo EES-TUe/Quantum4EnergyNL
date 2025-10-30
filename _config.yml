@@ -1,9 +1,0 @@
-title: "Quantum4EnergyNL"
-description: "Building a community for quantum computing in power and energy systems"
-url: "https://www.quantum4energy.nl"
-baseurl: ""
-
-# Use the Serif theme via remote_theme
-remote_theme: zerostaticthemes/jekyll-serif-theme
-plugins:
-  - jekyll-remote-theme
