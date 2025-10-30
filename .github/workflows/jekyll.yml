@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          gem install bundler jekyll jekyll-remote-theme jekyll-include-cache
+          bundle install
 
       - name: Build site with Jekyll
         run: bundle exec jekyll build -d _site
