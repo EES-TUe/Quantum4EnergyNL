@@ -1,6 +1,26 @@
 title: "Quantum4EnergyNL"
 description: "Connecting quantum technologies and the energy transition in the Netherlands."
-url: "https://ees-tue.github.io"   # we’ll switch to your domain later
-baseurl: "/quantum4energynl"       # required while testing under github.io
+url: "https://www.quantum4energy.nl"
+baseurl: ""
 
-remote_theme: minima
+# ✅ use remote_theme instead of local files
+remote_theme: "Phlow/feeling-responsive"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Basic author info
+author:
+  name: "Quantum4EnergyNL"
+  email: ""
+
+# Optional Google Fonts
+google_webfonts:
+  - "Open Sans:400,700"
+  - "Lato:400,700"
+
+# Theme options (keep minimal at first)
+theme_settings:
+  navigation: true
+  show_subnav: true
+  sidebar: false
