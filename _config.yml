@@ -4,7 +4,7 @@ url: "https://www.quantum4energy.nl"
 baseurl: ""
 
 # ✅ use remote_theme instead of local files
-remote_theme: "Phlow/feeling-responsive"
+remote_theme: "broccolini/feeling-responsive"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
