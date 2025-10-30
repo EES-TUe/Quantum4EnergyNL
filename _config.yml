@@ -1,5 +1,5 @@
 title: "Quantum4EnergyNL"
-description: "Connecting quantum technologies and the energy transition in the Netherlands."
+description: "Building a community for quantum computing in power and energy systems"
 url: "https://www.quantum4energy.nl"
 baseurl: ""
 
@@ -7,34 +7,3 @@ baseurl: ""
 remote_theme: zerostaticthemes/jekyll-serif-theme
 plugins:
   - jekyll-remote-theme
-
-
-logo: /assets/images/logo-placeholder.png
-
-# Navigation (we’ll create these pages below)
-collections:
-  posts:
-    output: true
-
-# Minimal Mistakes settings
-minimal_mistakes_skin: default
-author:
-  name: "Quantum4EnergyNL Team"
-
-# Navigation links (top nav)
-navbar:
-  title: "Quantum4EnergyNL"
-  links:
-    - title: "About"
-      url: /about/
-    - title: "Events"
-      url: /events/
-    - title: "Partners"
-      url: /partners/
-    - title: "Contact"
-      url: /contact/
-
-# Build
-markdown: kramdown
-kramdown:
-  input: GFM
