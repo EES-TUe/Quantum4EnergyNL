@@ -346,3 +346,9 @@
     border:1px solid var(--line);border-radius:8px;color:var(--muted);transition:border-color .2s,color .2s,background .2s;}
   .person-links a:hover{border-color:var(--ink);color:var(--ink);background:var(--paper-2);}
   .person-links svg{width:16px;height:16px;}
+
+  .photo-band.poster img{
+  aspect-ratio:auto;
+  object-fit:contain;
+  border:1px solid var(--line);
+}
